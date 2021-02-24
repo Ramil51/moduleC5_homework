@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Requester via XHR</title>
+  <style>
+  	.form {
+  		margin: 20px auto;
+  		display: block;
+  		text-align: center;
+  		width: 500px;
+  	}
+
+  	.input, .request-btn {
+  		box-sizing: border-box;
+  		width: 100%;
+  		margin: 10px 0;
+  		padding: 10px;
+  	}
+
+  	.result {
+  		margin: 0 auto;
+  		display: flex;
+  		flex-wrap: wrap;
+  		width: 500px;
+			justify-content: center;
+  	}
+
+  	.result img {
+  		width: 100%;
+  	}
+  </style>
+</head>
+
+<body>
+  <div class="form">
+      <label>
+        <input class="input" type="number" placeholder="Введите число">
+      </label>
+      <button class="request-btn">Получить результат</button>
+  </div>
+  <div class="result">
+  	<p>Здесь будет результат запроса</p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
